@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background-color: darkred;
+    background-image: url(https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt3529010ab3dd0458/5e94c8f6461e697539f231ed/TDYasuo_FINAL.jpg);
+    position: relative;
+}
+
+.hero-content {
+    opacity: 0.85;
+    color: white;
+    background-color: none;
+    width: 600px;
+    height: 250px;
+    position: absolute;
+    left: 500px;
+    bottom: 50%;
+    margin-bottom: -125px;
+    text-align: center;
+}
+
+.button {
+    background-color: white;
+    border-radius: 10px;
+    width: 100px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: rgb(191, 191, 191);
+}
+
+.content {
+    width: 100vw;
+    height: 300vh;
+}
